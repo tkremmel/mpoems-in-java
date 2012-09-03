@@ -27,3 +27,32 @@ The drawback of Evolutionary Algorithms is their complexity, and the development
 PISA is a platform and programming language independent interface for search algorithms. The use of PISA ensure easy, fast and reliable comparison of different optimization algorithms on various problems or benchmarks. With litte programming effort, one can create the problem specific part of an optimisation problem, and combine it with arbitrary ready-to-use, pre-compiled and very complex optimisation search algorithms.
 
 The project "mPOEMS in JAVA" shares the goal of providing an easy-to-use framework, to use complex search algorithms, with PISA. The PISA framework is applicable to almost any search algorithm. mPOEMS in JAVA focus on providing a framework to use the evolutionary algorithm mPOEMS, without the need to know the algorithm in detail.
+
+
+The project was initially published at google code: http://code.google.com/p/mpoems-in-java/
+
+
+Authors
+=======
+
+The framework was created at the Technical University of Vienna and was a major part of the authors (Thomas Kremmel) thesis. 
+
+Dr. Jiří Kubalík and Prof. Dr. Stefan Biffl had the idea for this project and supported / supervised the progress.
+Dr. Jiří Kubalík has written the optimization algorithm the framework implements. He is an assistant professor at the Department of Cybernetics at the Czech Technical University in Prague:
+
+http://cyber.felk.cvut.cz/people/page.php?id=38&detailed=y
+
+Prof. Dr. Stefan Biffl is associate professor of software engineering at the Institute of Software Technology and Interactive Systems, Vienna University of Technology.
+
+http://qse.ifs.tuwien.ac.at/~biffl/
+
+
+Disclaimer
+==========
+
+This is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details. You should have received a copy of the GNU Lesser General Public License along with mpoems-in-jave.  If not, see <http://gnu.org/licenses/>.
+
+
+
