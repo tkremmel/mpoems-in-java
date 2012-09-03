@@ -1,0 +1,123 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tuwien.ifs.mpoems</groupId>
+  <artifactId>tuwien.ifs.mpoems</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>tuwien.ifs.mpoems</name>
+  <url>http://maven.apache.org</url>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.5</source>
+          <target>1.5</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+	<reporting>
+		<plugins>
+			<!-- Cross referenced java code -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>jxr-maven-plugin</artifactId>
+			</plugin>
+			<!-- Checkstyle -->
+			<plugin>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+				<configuration>
+					<configLocation>FISN_Checkstyle.xml</configLocation>
+				</configuration>
+			</plugin>
+
+			<!-- Javadoc with class diagram -->
+			<plugin>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<configuration>
+					<doclet>
+						gr.spinellis.umlgraph.doclet.UmlGraphDoc
+					</doclet>
+					<docletArtifact>
+						<groupId>gr.spinellis</groupId>
+						<artifactId>UmlGraph</artifactId>
+						<version>4.4</version>
+					</docletArtifact>
+					<additionalparam>
+						-qualify -inferrel -quiet -hide java.*
+						-postfixpackage -nodefontsize 9
+						-nodefontpackagesize 7
+					</additionalparam>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>taglist-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</reporting>  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.14</version>
+    </dependency>
+   </dependencies>
+    
+  
+  	<repositories>
+		<repository>
+			<id>Codehaus Repository</id>
+			<url>http://repository.codehaus.org</url>
+		</repository>
+		<repository>
+			<id>Codehaus Dist</id>
+			<url>http://dist.codehaus.org</url>
+		</repository>
+		<repository>
+			<id>Codehaus Snapshots</id>
+			<url>http://snapshots.repository.codehaus.org</url>
+		</repository>
+		<repository>
+			<id>Julien Dubois</id>
+			<url>http://julien.dubois.free.fr/maven2/</url>
+		</repository>
+		<repository>
+			<id>apache.org</id>
+			<name>Maven Snapshots</name>
+			<url>http://people.apache.org/repo/m2-snapshot-repository</url>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>Codehaus Repository</id>
+			<url>http://repository.codehaus.org</url>
+		</pluginRepository>
+		<pluginRepository>
+			<id>Codehaus Dist</id>
+			<url>http://dist.codehaus.org</url>
+		</pluginRepository>
+		<pluginRepository>
+			<id>Codehaus Snapshots</id>
+			<url>http://snapshots.repository.codehaus.org</url>
+		</pluginRepository>
+		<pluginRepository>
+			<id>apache.org</id>
+			<name>Maven Plugin Snapshots</name>
+			<url>http://people.apache.org/repo/m2-snapshot-repository</url>
+		</pluginRepository>
+	</pluginRepositories>
+</project>
+
