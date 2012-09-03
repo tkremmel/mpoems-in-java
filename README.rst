@@ -7,7 +7,7 @@ mPOEMS in JAVA is designed to provide optimisation problem developers with a too
 The JAVA implementation of mPOEMS
 ---------------------------------
 
-mPOEMS in JAVA is the generic JAVA implementation of an evolutionary algorithm called Multiobjective Prototype Optimization with Evolved Improvement Steps (mPOEMS). The framework was designed to provide optimisation problem engineers with an interface to use mPOEMS, without detailed understanding of the algorithm.
+mPOEMS in JAVA is the generic JAVA implementation of an evolutionary algorithm called Multiobjective Prototype Optimization with Evolved Improvement Steps (mPOEMS - http://dl.acm.org/citation.cfm?id=1792653). The framework was designed to provide optimisation problem engineers with an interface to use mPOEMS, without detailed understanding of the algorithm.
 
 All needed methods and fields to use the framework are presented in the documentation of the framework which can be found at the following location:
 
@@ -52,7 +52,7 @@ Disclaimer
 
 This is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details. You should have received a copy of the GNU Lesser General Public License along with mpoems-in-jave.  If not, see <http://gnu.org/licenses/>.
+This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details. You should have received a copy of the GNU Lesser General Public License along with mpoems-in-java.  If not, see <http://gnu.org/licenses/>.
 
 
 Getting Started
@@ -60,31 +60,28 @@ Getting Started
 
 Best starting point is to read the documentation .
 
-To see the framework in action just download the ready-to-start .jars at the downloads tab. There you can find two downloads. A mpoems-in-java solution for the knapsack problem and the .jar for the project selection problem. Get more information about the knapsack problem at _Wikipedia: http://en.wikipedia.org/wiki/Knapsack_problem.
+To see the framework in action just download the ready-to-start .jars at the downloads tab. There you can find two downloads. A mpoems-in-java solution for the knapsack problem and the .jar for the project selection problem. Get more information about the knapsack problem at _Wikipedia: http://en.wikipedia.org/wiki/Knapsack_problem. The knapsack problem implementation is maintained in a separate github repository: ..
 
 With JAVA installed you can start the .jars with double-clicking on them and waiting for a while, checking out the resulting .xls after a few minutes or you can use this command to see the command-line output:
 
     * java -jar tuwien.ifs.mpoems.knapsackProblem-1.0-SNAPSHOT-all.jar
-    * java -jar tuwien.ifs.mpoems.ppds.start-1.0-SNAPSHOT-all.jar
-    * Please note that you have to create an output folder for the ppds jar in order to create the output file.
 
 You can also change the settings mpoems-in-java is running with opening the .jar with win rar., change the settings file and then save it.
 
 You can find the settings file in the folder
 
     * tuwien.ifs.mpoems.knapsackProblem-1.0-SNAPSHOT-all.jar\tuwien\ifs\mpoems\knapsackProblem\mPOEMSConf.cfg
-or
-
-    * tuwien.ifs.mpoems.ppds.start-1.0-SNAPSHOT-all.jar\tuwien\ifs\mpoems\ppds\start\mPOEMSConf.cfg
-    * tuwien.ifs.mpoems.ppds.start-1.0-SNAPSHOT-all.jar\tuwien\ifs\mpoems\ppds\start\projectSelection.cfg
 
 The docs folder section also provides a file with the most common maven commands. These commands should be enough to create an eclipse project out of the source code and get started.
 
 
-Problem implementations
------------------------
 
+Papers:
+------
 
+Multiobjective prototype optimization with evolved improvement steps (mPOEMS) : http://dl.acm.org/citation.cfm?id=1792653
 
-Best starting po
+As proof-of-concept served the project: "Software project portfolio optimization with advanced multiobjective
+evolutionary algorithms" http://publik.tuwien.ac.at/files/PubDat_187677.pdf where mpoems-in-java has been used to solve the project portfolio selection problem, which is consider as a NP-hard problem (http://en.wikipedia.org/wiki/NP-hard). 
+
 
