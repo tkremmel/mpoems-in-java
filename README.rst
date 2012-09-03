@@ -79,9 +79,25 @@ The docs folder section also provides a file with the most common maven commands
 Papers:
 ------
 
+For people/researchers interested in the topic the papers below are worth a read:
+
 Multiobjective prototype optimization with evolved improvement steps (mPOEMS) : http://dl.acm.org/citation.cfm?id=1792653
 
 As proof-of-concept served the project: "Software project portfolio optimization with advanced multiobjective
-evolutionary algorithms" http://publik.tuwien.ac.at/files/PubDat_187677.pdf where mpoems-in-java has been used to solve the project portfolio selection problem, which is considered to be a NP-hard problem (http://en.wikipedia.org/wiki/NP-hard). 
+evolutionary algorithms" http://publik.tuwien.ac.at/files/PubDat_187677.pdf where mpoems-in-java has been used to solve the project portfolio selection problem, which is considered to be a NP-hard problem (http://en.wikipedia.org/wiki/NP-hard).
+
+evocop08) Kubalik, J., Mordinyi, R., Biffl, S.: Multiobjective Prototype Optimization with Evolved Improvement Steps. In Evolutionary Computation in Combinatorial Optimization. Heidelberg: Springer, 2008, p. 218-229. ISBN 978-3-540-78603-0.
+
+icannga09) Kubalik, J.: Solving the Multiple Sequence Alignment Problem Using Prototype Optimization with Evolved Improvement Steps. In Adaptive and Natural Computing Algorithms. Heidelberg: Springer, 2009, p. 183-192. ISBN 978-3-642-04920-0.
+
+gecco09) Kubalik, J.: Solving the Sorting Network Problem Using Iterative Optimization with Evolved Hypermutations. In Genetic and Evolutionary Computation Conference 2009 [CD-ROM]. New York: ACM, 2009, p. 301-308. ISBN 978-1-60558-325-9.
+
+smc-c) Kubalik, J., Tichy, P., Sindelar, R., Staron, R. J.: Clustering Methods for Agent Distribution Optimization. IEEE Transactions on Systems, Man, and Cybernetics, Part C: Applications and Reviews, Volume 40, Issue 1, Jan. 2010 Page(s):78 - 86.
+
+Kubalik J., R. Mordinyi, S. Biffl (2008): "Multiobjective Prototype Optimization with Evolved Im-provement Steps"; in: "Evolutionary Computation in Combinatorial Optimization", LNCS/Springer Berlin, 4972/2008/ Heidelberg, ISSN: 0302-9743; S. 218 - 229.
+
+Auer M., Trendowicz A., Graser B., Haunschmid E., Biffl S.; (2006) "Optimal Project Feature Weights in Analogy-Based Cost Estimation: Improvement and Limitations", IEEE Transactions on Software Engineering.
+
+Rus, I., Halling, M., Biffl S. (2003) "Supporting Decision-Making in Software Engineering with Process Simulation and Empirical Studies", Int. Jour. of Software Engineering and Knowledge Engineering (IJSEKE), 13 (5): 531-545. 
 
 
