@@ -76,7 +76,7 @@ You can find the settings file in the folder
 or
 
     * tuwien.ifs.mpoems.ppds.start-1.0-SNAPSHOT-all.jar\tuwien\ifs\mpoems\ppds\start\mPOEMSConf.cfg
-    *tuwien.ifs.mpoems.ppds.start-1.0-SNAPSHOT-all.jar\tuwien\ifs\mpoems\ppds\start\projectSelection.cfg
+    * tuwien.ifs.mpoems.ppds.start-1.0-SNAPSHOT-all.jar\tuwien\ifs\mpoems\ppds\start\projectSelection.cfg
 
 The docs folder section also provides a file with the most common maven commands. These commands should be enough to create an eclipse project out of the source code and get started.
 
