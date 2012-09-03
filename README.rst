@@ -60,7 +60,7 @@ Getting Started
 
 Best starting point is to read the documentation .
 
-To see the framework in action just download the ready-to-start .jars at the downloads tab. There you can find two downloads. A mpoems-in-java solution for the knapsack problem and the .jar for the project selection problem. Get more information about the knapsack problem at _Wikipedia: http://en.wikipedia.org/wiki/Knapsack_problem. The knapsack problem implementation is maintained in a separate github repository: ..
+To see the framework in action just download the ready-to-start .jars at the downloads tab. There you can find two downloads. A mpoems-in-java solution for the knapsack problem and the .jar for the project selection problem. Get more information about the knapsack problem at _Wikipedia: http://en.wikipedia.org/wiki/Knapsack_problem. The knapsack problem implementation is maintained in a separate github repository: https://github.com/mr-stateradio/mpoems-in-java-knapsackProblem
 
 With JAVA installed you can start the .jars with double-clicking on them and waiting for a while, checking out the resulting .xls after a few minutes or you can use this command to see the command-line output:
 
