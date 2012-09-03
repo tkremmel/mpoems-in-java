@@ -83,7 +83,7 @@ For people/researchers interested in the topic the papers below are worth a read
 
 Multiobjective prototype optimization with evolved improvement steps (mPOEMS) : http://dl.acm.org/citation.cfm?id=1792653
 
-As proof-of-concept served the project: "Software project portfolio optimization with advanced multiobjective
+mpoems-in-java proof-of-concept: "Software project portfolio optimization with advanced multiobjective
 evolutionary algorithms" http://publik.tuwien.ac.at/files/PubDat_187677.pdf where mpoems-in-java has been used to solve the project portfolio selection problem, which is considered to be a NP-hard problem (http://en.wikipedia.org/wiki/NP-hard).
 
 evocop08) Kubalik, J., Mordinyi, R., Biffl, S.: Multiobjective Prototype Optimization with Evolved Improvement Steps. In Evolutionary Computation in Combinatorial Optimization. Heidelberg: Springer, 2008, p. 218-229. ISBN 978-3-540-78603-0.
