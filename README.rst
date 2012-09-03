@@ -1,22 +1,22 @@
 mpoems-in-java
-==============
+--------------
 
 mPOEMS in JAVA is designed to provide optimisation problem developers with a tool to apply mPOEMS to their problem, without the need to know the complex algorithm in detail. Main goal is to use a state-of-the-art optimisation algorithm with small development effort.
 
 
 The JAVA implementation of mPOEMS
-=================================
+---------------------------------
 
 mPOEMS in JAVA is the generic JAVA implementation of an evolutionary algorithm called Multiobjective Prototype Optimization with Evolved Improvement Steps (mPOEMS). The framework was designed to provide optimisation problem engineers with an interface to use mPOEMS, without detailed understanding of the algorithm.
 
 All needed methods and fields to use the framework are presented in the documentation of the framework which can be found at the following location:
 
-http://thomaskremmel.com/mpoems/mpoems_in_java_documentation.pdf .
+     http://thomaskremmel.com/mpoems/mpoems_in_java_documentation.pdf .
 
 
 
 About mPOEMS
-==============
+------------
 
 Crossover, mutation, and evolution of a population are the basic principles of the evolution and natural selection. Evolutionary algorithms (EA) imitate the nature’s behaviour, and adapt the basic principles, to evolve a set of solutions, towards the optimum solution of a problem.
 
@@ -33,22 +33,22 @@ The project was initially published at google code: http://code.google.com/p/mpo
 
 
 Authors
-=======
+--------
 
 The framework was created at the Technical University of Vienna and was a major part of the authors (Thomas Kremmel) thesis. 
 
 Dr. Jiří Kubalík and Prof. Dr. Stefan Biffl had the idea for this project and supported / supervised the progress.
 Dr. Jiří Kubalík has written the optimization algorithm the framework implements. He is an assistant professor at the Department of Cybernetics at the Czech Technical University in Prague:
 
-http://cyber.felk.cvut.cz/people/page.php?id=38&detailed=y
+    http://cyber.felk.cvut.cz/people/page.php?id=38&detailed=y
 
 Prof. Dr. Stefan Biffl is associate professor of software engineering at the Institute of Software Technology and Interactive Systems, Vienna University of Technology.
 
-http://qse.ifs.tuwien.ac.at/~biffl/
+    http://qse.ifs.tuwien.ac.at/~biffl/
 
 
 Disclaimer
-==========
+------------
 
 This is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -56,7 +56,7 @@ This software is distributed in the hope that it will be useful, but WITHOUT ANY
 
 
 Getting Started
-===============
+------------
 
 Best starting point is to read the documentation .
 
@@ -64,18 +64,19 @@ To see the framework in action just download the ready-to-start .jars at the dow
 
 With JAVA installed you can start the .jars with double-clicking on them and waiting for a while, checking out the resulting .xls after a few minutes or you can use this command to see the command-line output:
 
-java -jar tuwien.ifs.mpoems.knapsackProblem-1.0-SNAPSHOT-all.jar
-java -jar tuwien.ifs.mpoems.ppds.start-1.0-SNAPSHOT-all.jar
-Please note that you have to create an output folder for the ppds jar in order to create the output file.
+    * java -jar tuwien.ifs.mpoems.knapsackProblem-1.0-SNAPSHOT-all.jar
+    * java -jar tuwien.ifs.mpoems.ppds.start-1.0-SNAPSHOT-all.jar
+    * Please note that you have to create an output folder for the ppds jar in order to create the output file.
 
 You can also change the settings mpoems-in-java is running with opening the .jar with win rar., change the settings file and then save it.
 
 You can find the settings file in the folder
 
-tuwien.ifs.mpoems.knapsackProblem-1.0-SNAPSHOT-all.jar\tuwien\ifs\mpoems\knapsackProblem\mPOEMSConf.cfg
+    * tuwien.ifs.mpoems.knapsackProblem-1.0-SNAPSHOT-all.jar\tuwien\ifs\mpoems\knapsackProblem\mPOEMSConf.cfg
 or
 
-tuwien.ifs.mpoems.ppds.start-1.0-SNAPSHOT-all.jar\tuwien\ifs\mpoems\ppds\start\mPOEMSConf.cfg
-tuwien.ifs.mpoems.ppds.start-1.0-SNAPSHOT-all.jar\tuwien\ifs\mpoems\ppds\start\projectSelection.cfg
-The download section also provides a .txt file with the most common maven commands. These commands should be enough to create an eclipse project out of the source code and get started.
+    * tuwien.ifs.mpoems.ppds.start-1.0-SNAPSHOT-all.jar\tuwien\ifs\mpoems\ppds\start\mPOEMSConf.cfg
+    *tuwien.ifs.mpoems.ppds.start-1.0-SNAPSHOT-all.jar\tuwien\ifs\mpoems\ppds\start\projectSelection.cfg
+
+The docs folder section also provides a file with the most common maven commands. These commands should be enough to create an eclipse project out of the source code and get started.
 
