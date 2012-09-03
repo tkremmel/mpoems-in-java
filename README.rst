@@ -48,7 +48,7 @@ Prof. Dr. Stefan Biffl is associate professor of software engineering at the Ins
 
 
 Disclaimer
-------------
+----------
 
 This is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -56,11 +56,11 @@ This software is distributed in the hope that it will be useful, but WITHOUT ANY
 
 
 Getting Started
-------------
+--------------
 
 Best starting point is to read the documentation .
 
-To see the framework in action just download the ready-to-start .jars at the downloads tab. There you can find two downloads. A mpoems-in-java solution for the knapsack problem and the .jar for the project selection problem. Get more information about the knapsack problem at wikipedia.
+To see the framework in action just download the ready-to-start .jars at the downloads tab. There you can find two downloads. A mpoems-in-java solution for the knapsack problem and the .jar for the project selection problem. Get more information about the knapsack problem at _Wikipedia: http://en.wikipedia.org/wiki/Knapsack_problem.
 
 With JAVA installed you can start the .jars with double-clicking on them and waiting for a while, checking out the resulting .xls after a few minutes or you can use this command to see the command-line output:
 
@@ -79,4 +79,12 @@ or
     * tuwien.ifs.mpoems.ppds.start-1.0-SNAPSHOT-all.jar\tuwien\ifs\mpoems\ppds\start\projectSelection.cfg
 
 The docs folder section also provides a file with the most common maven commands. These commands should be enough to create an eclipse project out of the source code and get started.
+
+
+Problem implementations
+-----------------------
+
+
+
+Best starting po
 
